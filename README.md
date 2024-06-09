@@ -51,12 +51,18 @@ If you find my work helpful or valuable, consider supporting me by donating or l
 
 ## Partitions
 
+### Layout
+
 These are the main partitions that are used:
 
 * `/boot`: To store bootloader & related files to boot the OS. GRUB is used as the bootloader.
 * `/`: The root directory of the Operating System (OS).
 * `/home`: Created a seperate partition for the user homoe directory, so that the data could be isolated from the system data if anything goes wrong there.
 * `swap`: Used when the RAM is full. (Typically matches the amount of RAM one has. For example, if one has a 4GB RAM, a `swap` partition of 4GB is used.) 
+
+### Setting the partitions
+
+Coming soon...
 
 ## Software/Tools
 These are installed seperately apart from the base installation, which is quite barebone.
@@ -104,6 +110,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 Graphical User Interface (GUI) related packages.
 
 * [lightdm](#gui-lightdm)
+* [xrandr](#gui-xrandr)
 * [feh](#gui-feh)
 * [i3](#gui-i3)
 * [i3lock-color](#gui-lock)
@@ -129,6 +136,29 @@ sudo systemctl enable lightdm.service
 After that, start the service.
 ```bash
 sudo systemctl start lightdm.service
+```
+
+#### <a name="gui-xrandr">xrandr</a>
+Used to set screen resolution.
+
+```bash
+pacman -S xrandr
+```
+
+**Getting display names**
+
+Get the name of the display and the supported reolution to set.
+
+```bash
+xrandr
+```
+
+**Setting the resolution**
+
+For example, setting a display output of `1280x720` for `Display-1`.
+
+```bash
+xrandr --output Display-1 --mode 1280x720
 ```
 
 #### <a name="gui-feh">feh</a>
@@ -199,6 +229,16 @@ Display network interfaces.
 ```bash
 ip a
 ```
+
+### User setup
+
+#### Account creation
+
+Coming soon...
+
+#### Adding `superuser` privileges
+
+Coming soon...
 
 # License
 Licensed under the [MIT License](./LICENSE).
