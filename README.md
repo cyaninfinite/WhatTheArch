@@ -104,6 +104,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 Graphical User Interface (GUI) related packages.
 
 * [lightdm](#gui-lightdm)
+* [xrandr](#gui-xrandr)
 * [feh](#gui-feh)
 * [i3](#gui-i3)
 * [i3lock-color](#gui-lock)
@@ -129,6 +130,29 @@ sudo systemctl enable lightdm.service
 After that, start the service.
 ```bash
 sudo systemctl start lightdm.service
+```
+
+#### <a name="gui-xrandr">xrandr</a>
+Used to set screen resolution.
+
+```bash
+pacman -S xrandr
+```
+
+**Getting display names**
+
+Get the name of the display and the supported reolution to set.
+
+```bash
+xrandr
+```
+
+**Setting the resolution**
+
+For example, setting a display output of `1280x720` for `Display-1`.
+
+```bash
+xrandr --output Display-1 --mode 1280x720
 ```
 
 #### <a name="gui-feh">feh</a>
