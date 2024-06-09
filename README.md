@@ -131,11 +131,11 @@ After that, start the service.
 sudo systemctl start lightdm.service
 ```
 
-#### <a name="#gui-feh">feh</a>
+#### <a name="gui-feh">feh</a>
 
 Lightweight image viewer, used to set the background wallpaper for `i3`.
 
-#### <a name="#gui-i3">i3</a>
+#### <a name="gui-i3">i3</a>
 
 > https://github.com/i3/i3
 
@@ -149,19 +149,19 @@ Install the i3 package.
 sudo pacman -S i3
 ```
 
-#### <a name="#gui-lock">i3lock-color</a>
+#### <a name="gui-lock">i3lock-color</a>
 
 > https://github.com/Raymo111/i3lock-color
 
 Replacement for `i3lock`, which looks much better that the default lockscreen.
 
-#### <a name="#gui-polybar">Polybar</a>
+#### <a name="gui-polybar">Polybar</a>
 
 > https://github.com/polybar/polybar
 
 Replacement for `i3` status bar, which allows for a ton of customization.
 
-#### <a name="#gui-rofi">Rofi</a>
+#### <a name="gui-rofi">Rofi</a>
 
 > https://github.com/davatorium/rofi
 
@@ -169,7 +169,7 @@ Replacement for `i3 dmenu`, a dynamic menu to start applications.
 
 > **Note:** Ensure that [`yay`](https://www.howtogeek.com/how-to-install-and-use-yay-on-arch-linux/) is setup beforehand!
 
-#### <a name ="#gui-terminator">Terminator</a>
+#### <a name ="gui-terminator">Terminator</a>
 A terminal emulator for GUI.
 
 ```bash
