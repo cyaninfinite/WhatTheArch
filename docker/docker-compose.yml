@@ -1,0 +1,10 @@
+services:
+  docs:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    image: cyaninfinite/whatthearch:docs
+    ports:
+      - 0.0.0.0:8080:8080
+    volumes:
+      - ../docs:/docs
