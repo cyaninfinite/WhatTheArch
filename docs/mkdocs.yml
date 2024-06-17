@@ -1,0 +1,41 @@
+site_name: What The Arch
+site_description: A documentation of the my journey with Arch Linux.
+site_url: http://cyaninfinite.github.io/whatthearch
+
+nav:
+  - Home: index.md
+  - Setup:
+    - Overview: setup.md
+    - Terminal: setup/term.md
+    - GUI: setup/gui.md
+  - Tools: tools.md
+
+theme:
+  name: material
+  icon:
+    logo: fontawesome/solid/archway
+  features:
+    - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - toc.follow
+
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      toggle:
+        icon: material/weather-night 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+  - offline

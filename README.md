@@ -36,7 +36,7 @@ A documentation of the my journey with Arch Linux.
 Version 0.1.0
  ```
 
-The main documentation could be found [here](./docs/main.md).
+The main documentation could be found [here](./docs/docs/index.md).
 
 ## Support Me
 
