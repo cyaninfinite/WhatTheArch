@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>http://cyaninfinite.github.io/whatthearch/index.html</loc>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://cyaninfinite.github.io/whatthearch/setup.html</loc>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://cyaninfinite.github.io/whatthearch/tools.html</loc>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://cyaninfinite.github.io/whatthearch/setup/gui.html</loc>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>http://cyaninfinite.github.io/whatthearch/setup/term.html</loc>
+         <lastmod>2024-06-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
