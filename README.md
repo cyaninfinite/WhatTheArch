@@ -2,6 +2,8 @@
 
 <a href="LICENSE" ><img src="https://img.shields.io/github/license/cyaninfinite/WhatTheArch?style=for-the-badge"/></a>
 
+<a href="https://github.com/cyaninfinite/WhatTheArch/actions/workflows/build_docs.yml"><img src="https://img.shields.io/github/actions/workflow/status/cyaninfinite/whatthearch/build_docs.yml?style=for-the-badge&label=Docs"/></a>
+
 
 A documentation of the my journey with Arch Linux.
 
